@@ -30,13 +30,14 @@ body {
 }
 
 .slot {
-  width: 120px;
-  height: 120px;
+  width: 103px;
+  height: 100px;
   background-color: #add8e600;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+
 }
 
 .boxes {
@@ -80,6 +81,11 @@ body {
   background: #ff8800;
   color: white;
   cursor: pointer;
+}
+
+.vias{
+  width: 500px;
+  height: 42px;
 }
 
 
