@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Niveles</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <div class="menu-container">
+    <h1 class="game-title">Musikspiele</h1>
+    <ul class="menu">
+      <li><button class="menu-button" id="start-game">Spielen</button></li>
+    </ul>
+  </div>
+
+  <!-- Modal para mostrar niveles -->
+  <div class="modal" id="level-modal">
+    <div class="modal-content">
+      <h2>Wählen Sie eine Ebene aus</h2>
+      <div class="level-container">
+        <a href="juego1.html">
+          <div class="level-card">
+            <img src="imgs/menu/piramides.JPG" alt="Nivel 2" class="level-image">
+            <p>musikalischer Zug
+            </p>
+          </div>
+        </a>
+        <a href="juego2.html">
+          <div class="level-card">
+            <img src="imgs/menu/piramides.JPG" alt="Nivel 2" class="level-image">
+            <p>Piramides Musicales </p>
+          </div>
+        </a>
+        <a href="juego3.html">
+          <div class="level-card">
+            <img src="imgs/menu/trenmenu.JPG" alt="Nivel 3" class="level-image">
+            <p>Nivel 3</p>
+          </div>
+        </a>
+        <div class="level-card">
+          <img src="nivel4.jpg" alt="Nivel 4" class="level-image">
+          <p>Nivel 4</p>
+        </div>
+      </div>
+      <button class="close-button" id="close-modal">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="games.js"></script>
+</body>
+</html>

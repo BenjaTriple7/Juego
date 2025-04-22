@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(imgs/juego3/paisaje.jpg);
+  background-repeat: no-repeat; /* Evita la repetición */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen en la pantalla */
+}
+
+.titulo{
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  width: 75%;
+  
+}
+
+.slot {
+  width: 120px;
+  height: 120px;
+  background-color: #add8e600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Permite acomodar las cajas en varias filas si es necesario */
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 1.2rem;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.dragging {
+  opacity: 0.5;
+}
+
+.bagon{
+  width: 100px;
+}
+
+.tren1{
+  width: 120px;
+}
+
+.atras{
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background: #ff8800;
+  color: white;
+  cursor: pointer;
+}
+
+
